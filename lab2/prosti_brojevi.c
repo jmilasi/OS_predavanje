@@ -44,18 +44,15 @@ int prost(unsigned long n)
 /* funkcija koja provjerava jel broj prost i u tom slucaju vraca 1 */
 void prekini(int sig)
 {
-	printf("int je %d",sig);
 	printf("Zadnji broj koji se provjerava: %d\n", broj );
 	exit(0);
 }
 void postavi_pauzu(int sig)
 {
-	printf("int je %d",sig);
 	pauza=1-pauza;
 }
 void periodicki_ispis(int sig)
 {
-	printf("int je %d",sig);
 	printf("Zadnji prosti broj: %d\n",zadnji);
 }
 
